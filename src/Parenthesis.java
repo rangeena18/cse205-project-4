@@ -18,7 +18,7 @@ public abstract class Parenthesis extends Operator {
     }
     
     /**
-     * Parenthesiss are not really operators so return false.
+     * Parenthesis are not really operators so return false.
      */
     @Override
     public boolean isBinaryOperator() {

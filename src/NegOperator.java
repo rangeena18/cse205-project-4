@@ -13,19 +13,29 @@
  */
 
 public class NegOperator extends UnaryOperator {
+
     public NegOperator() {
     }
 
+    /**
+     * Negates the sign on the operand
+     */
     @Override
     public Operand evaluate(Operand pOperand) {
         return new Operand(-pOperand.getValue());
     }
 
+    /**
+     * Returns the normal precedence level of this operator.
+     */
     @Override
     int precedence() {
         return 4;
     }
 
+    /**
+     * Returns the precedence level of this operator when on it is on the operator stack.
+     */
     @Override
     int stackPrecedence() {
         return 4;
