@@ -1,13 +1,13 @@
-//***************************************************************************************************************************
-// CLASS: Main
+//**************************************************************************************************************
+// CLASS: Main (Main.java)
 //
-// AUTHOR
-// Kevin R. Burger (burgerk@asu.edu)
-// Computer Science & Engineering Program
-// Fulton Schools of Engineering
-// Arizona State University, Tempe, AZ 85287-8809
-// Web: http://www.devlang.com
-//***************************************************************************************************************************
+// COURSE AND PROJECT INFO
+// CSE205 Object Oriented Programming and Data Structures, Spring B 2019
+// PROJECT NUMBER: 4
+//
+// Author: Vincent Hoang, vnhoang, vnhoang@asu.edu
+//**************************************************************************************************************
+
 import javax.swing.JFrame;
 
 /**
