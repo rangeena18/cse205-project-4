@@ -20,11 +20,11 @@ public class SubOperator extends BinaryOperator {
 
     @Override
     int precedence() {
-        return 4;
+        return 2;
     }
 
     @Override
     int stackPrecedence() {
-        return 4;
+        return 2;
     }
 }
